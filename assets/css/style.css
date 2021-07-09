@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   /* border-bottom: 2px solid #fcebe3; */
   margin: 72px 0 -72px 0;
 }
@@ -383,10 +383,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  height: 520px;
+  /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
+  height: 540px;
   float: right;
-  margin-right: 80px;
+  margin-right: 60px;
   width: auto;
 }
 
