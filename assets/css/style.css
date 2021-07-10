@@ -384,9 +384,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .animated {
   /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
-  height: 540px;
+  height: 620px;
   float: right;
-  margin-right: 60px;
+  /* margin-right: 60px; */
   width: auto;
 }
 
@@ -398,13 +398,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     -webkit-animation: none;
     margin-right: 0;
     animation: none;
-    height: 490px;
+    height: 470px;
   }
   #hero .hero-img {
     text-align: center;
   }
   #hero .hero-img img {
     width: 50%;
+  }
+  .hero-container {
+    padding: 0 0 0 0;
   }
 }
 
@@ -615,6 +618,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #fff;
 }
 
 .services .title a {
@@ -850,5 +854,11 @@ section {
 .up-arrow {
   height: 30px;
   width: 30px;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    padding: 0 130px 0 130px;
+  }
 }
 /* NEW */
